@@ -228,6 +228,11 @@ button {
     top: 0;
 }
 
+/* === Change Background Header === */
+.scroll-header {
+    background: var(--container-color);
+}
+
 /* === HOME === */
 .home__content {
     row-gap: 1rem;
