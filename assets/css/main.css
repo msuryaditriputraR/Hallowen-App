@@ -65,7 +65,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 body {
@@ -231,6 +231,22 @@ button {
 /* === Change Background Header === */
 .scroll-header {
     background: var(--container-color);
+}
+
+/* === ACTIVE LINK === */
+.active-link {
+    position: relative;
+}
+
+.active-link::before {
+    content: '';
+    position: absolute;
+    bottom: -.75rem;
+    left: 45%;
+    width: 5px;
+    height: 5px;
+    background-color: var(--title-color);
+    border-radius: 50%;
 }
 
 /* === HOME === */
